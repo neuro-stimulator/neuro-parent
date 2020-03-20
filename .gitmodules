@@ -1,0 +1,12 @@
+[submodule "diplomka-stimulator"]
+	path = diplomka-stimulator
+	url = https://github.com/stechy1/diplomka-stimulator.git
+[submodule "diplomka-backend"]
+	path = diplomka-backend
+	url = https://github.com/stechy1/diplomka-backend.git
+[submodule "diplomka-frontend"]
+	path = diplomka-frontend
+	url = https://github.com/stechy1/diplomka-frontend.git
+[submodule "diplomka-share"]
+	path = diplomka-share
+	url = https://github.com/stechy1/diplomka-share.git
