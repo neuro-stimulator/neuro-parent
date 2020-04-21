@@ -1,7 +1,7 @@
 #!/bin/bash
 
-echo 'instaluji zavislosti parenta'
-npm install
+echo 'klonuji submoduly'
+git submodule update --init --recursive
 
 echo 'aktualizuji veskere submoduly na posledni verzi'
 git submodule foreach git pull origin master
@@ -9,7 +9,6 @@ git submodule foreach git pull origin master
 echo 'diplomka-backend'
 cd diplomka-backend
 git reset --hard
-git pull origin master
 echo -e '\t instaluji zavislosti...'
 npm install
 echo -e '\t generuji schemata...'
@@ -22,7 +21,6 @@ cd ..
 echo 'diplomka-frontend'
 cd diplomka-frontend
 git reset --hard
-git pull origin master
 echo -e '\t instaluji zavislosti'
 npm install
 echo -e '\t vytvarim produkcni verzi...'
@@ -36,5 +34,8 @@ cd ..
 # platformio run
 # echo 'diplomka-stimulator hotovo'
 # cd ..
+
+echo 'instaluji zavislosti parenta'
+npm install
 
 echo 'instalace vsech zavislosti dokoncena'
