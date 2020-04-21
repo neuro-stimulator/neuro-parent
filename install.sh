@@ -9,6 +9,7 @@ git submodule foreach git pull origin master
 echo 'diplomka-backend'
 cd diplomka-backend
 git reset --hard
+git pull
 echo -e '\t instaluji zavislosti...'
 npm install
 echo -e '\t generuji schemata...'
@@ -21,6 +22,7 @@ cd ..
 echo 'diplomka-frontend'
 cd diplomka-frontend
 git reset --hard
+git pull
 echo -e '\t instaluji zavislosti'
 npm install
 echo -e '\t vytvarim produkcni verzi...'
