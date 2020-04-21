@@ -23,6 +23,8 @@ cd diplomka-frontend
 git reset --hard
 echo -e '\t instaluji zavislosti'
 npm install
+echo -e '\t aktualizuji webdriver'
+npx webdriver-manager update
 echo -e '\t vytvarim produkcni verzi...'
 npm run release
 echo -e '\t diplomka-backend hotovo'
