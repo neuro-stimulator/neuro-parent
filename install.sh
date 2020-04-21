@@ -24,6 +24,7 @@ git reset --hard
 echo -e '\t instaluji zavislosti'
 npm install
 echo -e '\t aktualizuji webdriver'
+npx webdriver-manager clean
 npx webdriver-manager update
 echo -e '\t vytvarim produkcni verzi...'
 npm run release
