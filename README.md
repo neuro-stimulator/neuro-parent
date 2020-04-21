@@ -7,8 +7,11 @@ Zastřešující repozitář pro diplomovou práci na téma: **Návrh hardwarov�
 Při klonování repozitáře je třeba naklonovat také submoduly.
 Příkaz pro klonování všeho: `git clone --recurse-submodules git@github.com:stechy1/diplomka-parent.git`.
 
-Pro instalaci celého modulu slouží příkaz `update.sh`.
+Pro instalaci dávislostí všech modulů slouží příkaz `install.sh`.
+Pro vytvoření složky s produkční verzí serveru s klientem je příkaz `build-production.sh`.
 Ke spuštění serveru je příkaz `run.sh`.
+
+Ke spuštění e2e testů s využitím plně produkčního serveru je příkaz `e2e.sh`.
 
 
 Seznam závislosti:
