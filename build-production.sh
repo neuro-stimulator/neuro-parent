@@ -21,6 +21,6 @@ cp -R diplomka-backend/node_modules application
 echo 'vytvarim slozku klienta'
 mkdir application/client
 echo 'kopiruji klienta do slozky application/client...'
-cp -R diplomka-frontend/build/* application/client
+cp -R diplomka-frontend/dist/* application/client
 
 echo 'hotovo'
