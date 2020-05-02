@@ -4,6 +4,9 @@
 	"description": "",
 	"author": "Petr Štechmüller",
 	"licence": "MIT",
+	"engines": {
+    	"node": "12.16.x"
+  	},
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/stechy1/diplomka-backend"
