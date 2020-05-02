@@ -13,7 +13,6 @@ Ke spuštění serveru je příkaz `run.sh`.
 
 Ke spuštění e2e testů s využitím plně produkčního serveru je příkaz `e2e.sh`.
 
-
 Seznam závislosti:
  - NodeJS
    - instalace:
