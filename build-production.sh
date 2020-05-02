@@ -8,10 +8,8 @@ echo 'kopiruji .env.production soubor'
 cp diplomka-backend/.env.production application
 echo 'prejmenovavam .env.production na .env'
 mv application/.env.production application/.env
-echo 'vytvarim zdrojovou slozku serveru'
-mkdir application/src
 echo 'kopiruji server do slozky application...'
-cp -R diplomka-backend/dist/* application/src
+cp -R diplomka-backend/dist/* application
 echo 'vytvarim slozku pro schemata'
 mkdir application/schemas
 cp -R diplomka-backend/schemas/*.json application/schemas

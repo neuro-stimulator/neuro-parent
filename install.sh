@@ -38,7 +38,4 @@ cd ..
 # echo 'diplomka-stimulator hotovo'
 # cd ..
 
-echo 'instaluji zavislosti parenta'
-npm install
-
 echo 'instalace vsech zavislosti dokoncena'

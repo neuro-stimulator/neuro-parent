@@ -8,6 +8,10 @@
 		"type": "git",
 		"url": "https://github.com/stechy1/diplomka-backend"
 	},
+	"scripts": {
+		"preinstall": "git submodule update --init --recursive",
+		"postinstall": "./install.sh && ./build-production.sh"
+	},
 	"dependencies": {
 		"concurrently": "^5.1.0"
 	}
