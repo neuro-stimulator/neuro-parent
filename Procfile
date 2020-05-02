@@ -1,1 +1,0 @@
-web: node application/src/main
