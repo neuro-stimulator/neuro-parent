@@ -1,10 +1,10 @@
 #!/bin/bash
 
 echo 'klonuji submoduly'
-#git submodule update --init --recursive
+git submodule update --init --recursive
 
 echo 'aktualizuji veskere submoduly na posledni verzi'
-#git submodule foreach git pull origin master
+git submodule foreach git pull origin master
 
 echo 'diplomka-backend'
 cd diplomka-backend
