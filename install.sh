@@ -31,11 +31,11 @@ npm run release
 echo -e '\t diplomka-backend hotovo'
 cd ..
 
-# echo 'diplomka-stimulator'
-# cd diplomka-stimulator
-# echo -e '\t vytvarim produkcni verzi...'
-# platformio run
-# echo 'diplomka-stimulator hotovo'
-# cd ..
+echo 'diplomka-stimulator'
+cd diplomka-stimulator
+echo -e '\t vytvarim produkcni verzi...'
+pio run -e nucleo_l476rg
+echo 'diplomka-stimulator hotovo'
+cd ..
 
 echo 'instalace vsech zavislosti dokoncena'

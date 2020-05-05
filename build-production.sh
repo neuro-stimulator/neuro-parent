@@ -20,5 +20,7 @@ echo 'vytvarim slozku klienta'
 mkdir application/client
 echo 'kopiruji klienta do slozky application/client...'
 cp -R diplomka-frontend/dist/* application/client
+echo 'kopiruji firmware stimulatoru do slozky application'
+cp diplomka-stimulator/.pio/build/nucleo_l476rg/firmware.bin application/firmware.bin
 
 echo 'hotovo'
